@@ -95,7 +95,8 @@ public:
 	Options *GetOptions() const { return options_.get(); }
 
 	std::string const &CameraId() const;
-	Camera *CameraModel() const {
+	std::string CameraModel() const;
+	Camera *GetCamera() const {
 		return camera_.get();
 	}
 

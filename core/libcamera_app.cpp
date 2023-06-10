@@ -91,11 +91,11 @@ std::string const &LibcameraApp::CameraId() const
 	return camera_->id();
 }
 
-// std::string LibcameraApp::CameraModel() const
-// {
-// 	auto model = camera_->properties().get(properties::Model);
-// 	return model ? *model : camera_->id();
-// }
+std::string LibcameraApp::CameraModel() const
+{
+	auto model = camera_->properties().get(properties::Model);
+	return model ? *model : camera_->id();
+}
 
 void LibcameraApp::OpenCamera()
 {

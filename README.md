@@ -1,6 +1,6 @@
-# cinepi-raw
+![cp_raw_banner](https://github.com/cinepi/cinepi-raw/assets/25234407/71591abc-f9b2-467e-806f-30557bcd1491)
 
-fork of libcamera-apps that builds upon the libcamera-raw app, offering cinema dng recording capabillities and integration with REDIS offering an abstract "API" like layer for custom integrations. 
+*fork of rpicam-apps that builds upon the rpicam-raw app, offering cinema dng recording capabillities and integration with REDIS offering an abstract "API" like layer for custom integrations / controls.*
 
 Requirements
 -----
